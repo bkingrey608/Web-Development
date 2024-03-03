@@ -1,6 +1,6 @@
-* {
+* /*{
     background-color: rgb(0, 174, 255);   
-}
+}*/
 
 p{
     font-family: 'Times New Roman', Times, serif;
@@ -40,6 +40,12 @@ nav a {
 
 nav a:hover {
     color:white
+}
+
+body {
+    /*background-image: url(kwan-fung-s2zy7_0hrPY-unsplash.jpg);*/
+    background-image: url(nature.jpg);
+    background-size: auto;
 }
 
 
