@@ -1,6 +1,5 @@
 * {
-    background-color: rgb(0, 174, 255);
-    
+    background-color: rgb(0, 174, 255);   
 }
 
 p{
@@ -9,13 +8,17 @@ p{
 }
 
 img {
-    height: 400px;
-    width: 300px;
+    height: 409px;
+    width: 304px;
     margin-left: 20px;
     border-radius: 10px;
+    float: left;
+    padding-right: 1%;
 }
 
-
+links {
+    margin-left: 0px;
+}
 li {
     text-align: left;
 }
@@ -38,4 +41,5 @@ nav a {
 nav a:hover {
     color:white
 }
+
 
