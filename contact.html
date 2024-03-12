@@ -8,25 +8,27 @@
     <script src="scripts.js"></script>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
-    </nav>
-    <form>
-      <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="fname" /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" /><br />
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" /><br />
-      <label for="message">Message:</label><br />
-      <textarea id="message" id="message" name="message"></textarea
-      ><br /><br /><br /><br /><br /><br /><br /><br />
-
-      <input type="submit" value="Submit" /><br /><br />
+    <div class="links">
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+    </div>
+    <form id="form">
+      <div class="input box">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" id="message" name="message"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Submit</button>
+      </div>
     </form>
 
     <footer>

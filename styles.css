@@ -13,35 +13,90 @@ img {
     padding-right: 1%;
 }
 
-links {
-    margin-left: 0px;
-}
+
 li {
     text-align: left;
 }
 
-nav ul {
-    text-align: left;
+.links {
+    font-size: 22px;
+    text-decoration: none;
+    margin:auto;
+    width: 40%;
+    padding: 20px;
 }
 
-nav li {
-    display: inline-block;
-    margin-left: 70px;
+.links a:hover {
+    color: white;
 }
 
 nav a {
     color: black;
     text-decoration: none;
     font-size: 22px;
+    padding-inline: 20px;
 }
 
-nav a:hover {
-    color:white
-}
 
 body {
     background-image: url(dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
     background-size: auto;
+}
+
+#form {
+
+margin: auto;
+width: 30%;
+font-size: 12px;
+}
+
+#form label {
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+
+#form button {
+    padding: 10px;
+    width: 30%;
+    border-radius: 4px;
+    border-color: azure;
+    border-width: 4px;
+    text-align: center;
+    min-width: 70px;
+    max-width: 110px;
+    margin: auto;
+    background-color: blue;
+    color: azure;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+
+
+.input-control input {
+    border: 2px solid white;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control.success input{
+    border-color: green;
+}
+
+.input-control.error input {
+    border-color: red;
+}
+
+.button {
+    padding: 50px;
+   
 }
 
 
