@@ -18,23 +18,42 @@
     </div>
     <div class="container">
       <form id="form" action="/">
-        <h1>Registration</h1>
+        <!-- action to be added later-->
+        <h1>Contact Me</h1>
+
         <div class="input-control">
-          <label for="fname">First name</label>
-          <input id="fname" name="fname" type="text" />
-          <div class="error"></div>
-        </div>
-        <div class="input-control">
-          <label for="lname">Last name</label>
-          <input id="lname" name="lname" type="text" />
+          <!--<label for="fname">First name</label>-->
+          <input id="fname" name="fname" type="text" placeholder="First Name" />
           <div class="error"></div>
         </div>
 
         <div class="input-control">
-          <label for="email">Email</label>
-          <input id="email" name="email" type="text" />
+          <!--<label for="lname">Last name</label> -->
+          <input id="lname" name="lname" type="text" placeholder="Last Name" />
           <div class="error"></div>
         </div>
+
+        <div class="input-control">
+          <!--<label for="email">Email</label>-->
+          <input
+            id="email"
+            name="email"
+            type="text"
+            placeholder="Email address"
+          />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <p><h3>Enter Message Below</h3></p>
+          <textarea
+            id="message"
+            id="message"
+            name="message"
+            placeholder="Drag corner to expand"
+          ></textarea>
+        </div>
+
         <!--<div class="input-control">
           <label for="password">Password</label>
           <input id="password" name="password" type="password" />
@@ -45,6 +64,7 @@
           <input id="password2" name="password2" type="password" />
           <div class="error"></div>
         </div>-->
+
         <button type="submit">Submit</button>
       </form>
     </div>

@@ -94,9 +94,15 @@ font-size: 12px;
 }
 
 #form h1 {
-    color: #0f2027;
+    color: black;
     text-align: center;
 }
+#form h3 {
+    color: black;
+    text-align: center;
+}
+
+
 
 #form button {
     padding: 10px;
@@ -128,7 +134,14 @@ font-size: 12px;
     border-color: red;
 }
 
+.updates {
+    margin-top: 100PX;
 
+}
+
+textarea{
+    max-width: 300px;
+}
 
 
 
