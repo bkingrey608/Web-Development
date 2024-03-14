@@ -1,6 +1,6 @@
 const form = document.getElementById('form');
-const fname = document.getElementById('fname');
-const lname = document.getElementById('lname');
+const firstName = document.getElementById('firstName');
+const lastName = document.getElementById('lastName');
 const email = document.getElementById('email');
 
 form.addEventListener('submit', e => {
@@ -27,28 +27,29 @@ const setSuccess = element => {
     inputControl.classList.remove('error');
 };
 
+// Valid email checker I found browsing Javascript videos
 const isValidEmail = email => {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
 }
 
 const validateInputs = () => {
-    const fnameValue = fname.value.trim();
-    const lnameValue = lname.value.trim();
+    const firstNameValue = firstName.value.trim();
+    const lastNameValue = lastName.value.trim();
     const emailValue = email.value.trim();
     
 
-    if(fnameValue === '') {
-        setError(fname, 'First name is required');
+    if(firstNameValue === '') {
+        setError(firstName, 'First name is required');
     } else {
-        setSuccess(fname);
+        setSuccess(firstName);
     }
 
     
-    if(lnameValue === '') {
-        setError(lname, 'Last name is required');
+    if(lastNameValue === '') {
+        setError(lastName, 'Last name is required');
     } else {
-        setSuccess(lname);
+        setSuccess(lastName);
     }
 
     if(emailValue === '') {
