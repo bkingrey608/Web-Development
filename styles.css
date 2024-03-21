@@ -13,11 +13,9 @@ img {
     padding-right: 1%;
 }
 
-
 li {
     text-align: left;
 }
-
 
 .links {
     text-align: center;
@@ -40,49 +38,10 @@ nav a {
     padding-inline: 20px;
 }
 
-
 body {
     background-image: url(dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
     background-size: auto;
 }
-
-/*#form {
-
-margin: auto;
-width: 30%;
-font-size: 12px;
-}
-
-#form label {
-    display: inline-block;
-    text-align: center;
-    
-}
-
-
-
-#form button {
-    padding: 10px;
-    width: 30%;
-    border-radius: 4px;
-    border-color: azure;
-    border-width: 4px;
-    text-align: center;
-    min-width: 85px;
-    max-width: 110px;
-    margin: auto;
-    background-color: blue;
-    color: azure;
-    font-size: 14px;
-    font-weight: 700;
-
-}
-
-.button {
-    padding: 50px;
-    text-align: center;
-   
-} */
 
 #form {
     width: 300px;
@@ -101,8 +60,6 @@ font-size: 12px;
     color: black;
     text-align: center;
 }
-
-
 
 #form button {
     padding: 10px;
@@ -128,8 +85,6 @@ font-size: 12px;
     font-weight: 600;
 }
 
-
-
 .input-control input {
     border: 2px solid white;
     border-radius: 4px;
@@ -150,7 +105,6 @@ font-size: 12px;
 
 .updates {
     margin-top: 100PX;
-
 }
 
 textarea{
