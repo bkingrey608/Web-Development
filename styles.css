@@ -27,6 +27,10 @@ li {
     font-size: 12px;
 }
 
+a:hover {
+    color: rgba(128, 128, 128, 0.493);
+}
+
 .links a:hover {
     color: white;
 }
@@ -40,7 +44,7 @@ nav a {
 
 body {
     background-image: url(dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
-    background-size: auto;
+    background-size:cover;
 }
 
 #form {
