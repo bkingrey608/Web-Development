@@ -1,11 +1,11 @@
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Form Validation</title>
 
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css" >
    
   </head>
   <body>
@@ -17,29 +17,30 @@
       </nav>
     </div>
     <div class="container">
-      <form id="form" action="/submit-form" method="GET">
+      <!--<form id="form" action="/submit-form" method="post"> -->
+        <form id="form" action="/submit-form" method="post">
         <!-- action to be added later-->
         <h1>Contact Me</h1>
 
          <!-- Create input fields using placeholders rather than labels-->
         <div class="input-control">
-          <input id="firstName" name="firstName" type="text" placeholder="First Name" />
+          <input id="firstName" name="firstName" type="text" placeholder="First Name" >
           <div class="error"></div>
         </div>
 
         <div class="input-control">
-          <input id="lastName" name="lastName" type="text" placeholder="Last Name" />
+          <input id="lastName" name="lastName" type="text" placeholder="Last Name" >
           <div class="error"></div>
         </div>
 
         <div class="input-control">
-          <input id="email" name="email" type="text" placeholder="Email address"/>
+          <input id="email" name="email" type="text" placeholder="Email address">
           <div class="error"></div>
         </div>
 
          <!--Textarea used as an expandable message box-->
         <div class="input-control">
-          <p><h3>Enter Message Below</h3></p>
+          <h3>Enter Message Below</h3>
           <textarea id="message" name="message" placeholder="Type here"
           ></textarea>
         </div>
@@ -55,7 +56,7 @@
     <!--Email Link-->
     <div style="text-align: center; margin-top: 10px">
       <address style="margin-top: 20px">
-        <a href="mailto:bkkingrey@gmail.com">bkkingrey@gmail.com</a><br />
+        <a href="mailto:bkkingrey@gmail.com">bkkingrey@gmail.com</a>
       </address>
     </div>
 
