@@ -65,6 +65,4 @@ const validateInputs = () => {
     } else {
         setSuccess(email);
     }
-
-
 };
