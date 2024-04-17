@@ -81,7 +81,7 @@ body {
 #form h3 {
     color: black;
     text-align: center;
-    font-size: 1;
+    font-size: 18;
 }
 
 #form button {
@@ -133,6 +133,7 @@ body {
 }
 
 textarea{
+    
     max-width: 350px;
     inline-size: 350px;
     height: 200px;
