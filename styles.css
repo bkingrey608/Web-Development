@@ -81,7 +81,7 @@ body {
 #form h3 {
     color: black;
     text-align: center;
-    font-size: 18;
+    font-size: 18px;
 }
 
 #form button {
@@ -113,9 +113,9 @@ body {
     border-radius: 4px;
     margin-bottom: 5px;
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     padding: 12px;
-    width: 100%;
+    width: 323px; 
 }
 
 .input-control.success input{
@@ -133,9 +133,9 @@ body {
 }
 
 textarea{
-    
-    max-width: 350px;
-    inline-size: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 346px;
+    inline-size: 346px;
     height: 180px;
     font-size: 14px; 
 }
