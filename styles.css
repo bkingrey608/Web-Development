@@ -134,8 +134,10 @@ body {
 
 textarea{
     font-family: 'Times New Roman', Times, serif;
-    max-width: 346px;
-    inline-size: 346px;
+    max-width: 323px;
+    width: 323px;
+    padding: 12px;
+    display: block;
     height: 180px;
     font-size: 14px; 
 }
