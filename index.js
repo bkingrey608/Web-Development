@@ -5,12 +5,12 @@ const firstName = document.getElementById('firstName');
 const lastName = document.getElementById('lastName');
 const email = document.getElementById('email');
 
-// add event listener to check for error before submitting
+// add event listener for the submit button.  Prevent submitting before validating inputs.  
 form.addEventListener('submit', e => {
     e.preventDefault();
-
     validateInputs();
 });
+
 
 // Add error class / remove success class to field to change style color, display error message
 const setError = (element, message) => {
@@ -19,7 +19,7 @@ const setError = (element, message) => {
 
     errorDisplay.innerText = message;
     inputControl.classList.add('error');
-    inputControl.classList.remove('success')
+    inputControl.classList.remove('success');
 }
 
 // Add success class / remove error class to field to change style color
@@ -65,4 +65,26 @@ const validateInputs = () => {
     } else {
         setSuccess(email);
     }
+
+    // add event listener for the Reset button. Clear any errors and green/red status  
+    form.addEventListener('reset', e => {
+    
+        resetStatus(firstName);
+        resetStatus(lastName);
+        resetStatus(email);
+
+    });
+
+    // Remove 'success' and 'error' attributes from each form element
+    const resetStatus = element => {
+        const inputControl = element.parentElement;
+        const errorDisplay = inputControl.querySelector('.error');
+    
+        errorDisplay.innerText = '';
+        inputControl.classList.remove('success');
+        inputControl.classList.remove('error');
+    };
+
+
+    
 };

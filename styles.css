@@ -1,12 +1,5 @@
 
 
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; // Size = Border + Padding + Content box, margin is not included
-} */
-
-
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1em;
