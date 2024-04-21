@@ -84,7 +84,5 @@ const validateInputs = () => {
         inputControl.classList.remove('success');
         inputControl.classList.remove('error');
     };
-
-
     
 };
